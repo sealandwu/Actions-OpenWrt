@@ -50,6 +50,7 @@ CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_screen=y
 CONFIG_PACKAGE_autocore-arm=y
+CONFIG_PACKAGE_xray=y
 EOF
 
 # FFmpeg
@@ -66,6 +67,11 @@ CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-qosv4=y
 
+CONFIG_PACKAGE_luci-app-wol=y
+CONFIG_PACKAGE_luci-app-ddns=y
+CONFIG_PACKAGE_luci-app-unblockmusic=y
+CONFIG_PACKAGE_luci-app-cpufreq=y
+CONFIG_PACKAGE_luci-app-zerotier=y
 EOF
 
 # 常用软件 默认已启用
